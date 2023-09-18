@@ -1,0 +1,12 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+  }
+  .main{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-color: #61dafb;
+  }  

@@ -1,0 +1,115 @@
+.main-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    
+    /* display: flex;
+    justify-content: space-around; */
+  }
+  
+  
+  /* .main-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  } */
+  
+  
+  /* .main-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  } */
+  
+  .image{
+    
+    width: 200px;
+    height: auto;
+    
+   
+}
+
+.per{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration-color: blue
+}
+
+.per1{
+    font-variant-position: super;
+    font-size: 30px;
+}
+.per2{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.drive{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); */
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* .ver{
+    
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;;
+} */
+  
+/* .ver1{
+    height: 10px;
+    border-left: 3px solid;
+} */
+
+.ver2{
+    height: 10px;
+    border-left: 3px solid;
+    margin-left: -3px;
+    
+    font-size: larger;
+    font-style: initial;
+}
+.ver3{
+    height: 10px;
+    border-left: 3px solid;
+}
+
+.pv{
+    font-size: 55px;
+    text-align: center;
+}
+.pv1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.pv2{
+    font-size: 55px;
+    text-align: center;
+}
+
+.pv3{
+    font-size: 25px;
+    text-align: center;
+}
+
+.pv4{
+    font-size: 55px;
+    text-align: center;
+}
+
+.pv5{
+    font-size: 25px;
+    text-align: center;
+}

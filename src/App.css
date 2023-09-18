@@ -1,0 +1,41 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+
+
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.home{
+  display: flex;
+  justify-content: center;
+
+}
+
+.cont{
+  width: 200px; /* Adjust the width as needed */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  overflow-y: auto; /* Enable vertical scrolling for fixed content */
+position: absolute;
+}
