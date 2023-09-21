@@ -44,6 +44,11 @@
 .per2{
     background-color:  #2e82cb;
     text-align: center;
+
+    
+   
+    
+    
 }
 
 .drive{
@@ -57,16 +62,11 @@
     
 }
 
-/* .ver{
+.ver{
     
-    border-left: 6px solid green;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;;
-} */
-  
+    
+   
+} 
 /* .ver1{
     height: 10px;
     border-left: 3px solid;
@@ -76,7 +76,7 @@
     height: 10px;
     border-left: 3px solid;
     margin-left: -3px;
-    
+   
     font-size: larger;
     font-style: initial;
 }

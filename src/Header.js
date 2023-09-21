@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
+    <div className="goober">
     <header className="header">
         <div className="xircls">
       <h1>XIRCLS</h1>
@@ -22,6 +23,7 @@ const Header = () => {
       </nav>
       </p>
     </header>
+    </div>
   );
 };
 

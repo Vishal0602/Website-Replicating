@@ -14,7 +14,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <BrowserRouter >
         <Header />
 
         <Routes>
@@ -25,6 +25,7 @@ function App() {
         </Routes>
         
       </BrowserRouter>
+      
       <Main />
       
       <Footer />
