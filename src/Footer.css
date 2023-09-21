@@ -1,12 +1,53 @@
 .footer {
-    background-color: #000;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+  background-color: dark;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.main{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration-color: white;
+}  
+
+.linkcolor{
+  text-decoration-color: #fff;
+}
+
+.goto{
+  position: fixed; 
+  bottom: 40px; 
+  right: 50px; 
+  
+  background-color: #2e82cb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+  .goto :hover{
+    background-color:#4683d3 ;
   }
-  .main{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration-color: #61dafb;
-  }  
+  
+  /* <section id="page-title" class=" page-title-dark center " style="background-color: #2e82cb;">
+       
+  <div class="container clearfix" style="z-index: 2">
+    <span class="before-heading" style="color: #FFF;">info@xircls.com</span>
+    <h2 class="font-body nott fw-medium mb-2" style="color: #FFF; font-size: 54px;">+91 9969-333-666</h2>
+    <a href="https://www.google.com/maps/place/The+Summit+Business+Bay+-+Omkar/@19.1165042,72.8552242,17z/data=!3m1!4b1!4m5!3m4!1s0x3be7c832166487cd:0x97f514452b5b5872!8m2!3d19.1167493!4d72.8574193?hl=en" data-lightbox="iframe" class="d-inline-block"><i class="icon-map-marker mb-0 text-white notextshadow i-large i-plain dark mx-auto d-block"></i><span class="text-white font-secondary text-lowercase fst-italic ls1 mt-0"><u>Map</u></span></a>
+    <span class="fw-normal text-white font-secondary mt-4">G-08, The Summit Business Bay by Omkar<br>Andheri Kurla Road, Andheri (East)<br>Mumbai - 400086, India</span>
+  </div>
+
+  <!-- <div class="video-overlay" style="background: rgba(28,133,232,0.55); z-index: 1"></div> -->
+
+</section> */
+/* icon-angle-up rounded-circle
+<div id="gotoTop" class="icon-angle-up rounded-circle" style="display: block;"></div> */
+      
+}

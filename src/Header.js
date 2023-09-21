@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.css";
 import {  BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import Home from "./Home";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,8 +14,9 @@ const Header = () => {
       <nav>
         <ul>
             <li>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/About">About</NavLink>
+                <Link to="/Home">Home</Link>
+                <Link to ="/About">About</Link>
+               
             </li>
             </ul>
       </nav>

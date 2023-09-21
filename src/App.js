@@ -9,6 +9,7 @@ import About from './About';
 
 
 
+
 function App() {
   return (
     <>
@@ -19,13 +20,13 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
+         
 
         </Routes>
+        
       </BrowserRouter>
       <Main />
-      <div className='cont'>
-        <button><a href='./About.js'></a>Contact Us</button>
-      </div>
+      
       <Footer />
     </>
   );
